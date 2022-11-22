@@ -1,0 +1,1 @@
+<?php echo '<img src = "images/my_look.jpg" alt ="Там моё лицо ">' ?>

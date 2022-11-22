@@ -1,0 +1,81 @@
+head, 
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightblue;
+}
+
+h1 {
+    font-size : 36px;
+    font-style: strong;
+    color: purple;
+    text-align :center;
+}
+
+.menu_and_pict{
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    height: 50%;
+    background-color: #96a2c4;
+}   
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+ul li {
+        margin-right: 20px;
+}
+    
+li a {
+        text-decoration: none;
+        font-family: 'Noto Serif JP', serif;
+        font-size: 1.5rem;
+        color: #000000;
+        font-weight: 800;
+}
+
+.text_about_me{
+    display: flex;
+    flex-direction: column;
+    justify-content: right;
+    font-size : 24px;
+    margin-bottom: 10px;
+   
+}
+.text_about_me p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.my_photo {
+    font-size: 16px;
+    color: #ff00a6
+}
+.my_photo img {
+    width: 200px;
+    height: 200px ;
+}
+
+.qoute {
+    margin-top: 20px;
+    font-size: 32px;
+    font-style: italic;
+}
+
+.footer{
+    padding-top: 50px;
+    background-color: darkcyan;
+    flex : 0 0 auto;
+}
+
+.knowledge p{
+    font-size :36px;
+    color: peru;
+}
+
+.knowledge p1{
+    font-size :36px;
+    color: rgb(0, 63, 252);
+}
