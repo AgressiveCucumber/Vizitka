@@ -18,7 +18,6 @@
                 <p color = "green" >Меня зовут <?php echo $mySurname,' ',$myName ?> </p>
                 <p>Мне <?php echo $myAge ?> лет</p>
                 <p>Я из славного города <?php echo $myCity?> </p>
-                <p>Из части прошедшего курса я нихуя полезного не усвоил</p> 
             </div>
             <div class = "my_photo">
                 <p>Вот так я выгляжу</p>
